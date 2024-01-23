@@ -1,4 +1,4 @@
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/medozaroberto2/api.facilfactura.pe/
+    - export DEPLOYPATH=/home/mendozaroberto2/api.facilfactura.pe/
     - /bin/rsync -a --exclude 'index.php' public/ $DEPLOYPATH
